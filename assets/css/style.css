@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    height: 600px;
+    font-size: 18px;
+    clear: both;
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    height: 20px;
+    width: 960px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#myName {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    color: #ffffff;
+    border-color: #cccccc;
+    text-align: center;
+}
+
+#kenriley {
+    float: left;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin-left: 175px;
+    padding: 15px;
+}
+
+#myLinks {
+    float: right;
+    font-size: 14px;
+    word-spacing: 10px;
+    color: #777777;
+    padding: 30px;
+}
+
+#myWindow {
+    padding-left: 175px;
+    padding-top: 30px;
+    clear: left;
+    width: 960px;
+    height: 500px;
+    background-image: url('../images/topography.png');
+}
+
+#aboutLabel {
+    color: #4aaaa5;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 15px;
+}
+
+#imageContainer {
+    margin-left: 15px;
+    float: left;
+}
+
+#intro {
+    float: left;
+}
+
+#moreAboutMe {
+    clear: left;
+}
+
+#aboutMePage {
+    clear: left;
+    width: 600px;
+    height: 300ox;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+footer {
+    clear: both;
+    background-color: #666666;
+    border-top-color: #4aaaa5;
+    width: 960px;
+    height:32px;
+    font-size: 8px;
+    position: fixed;
+}
+
+#cr {
+    position: center;
+}
