@@ -13,24 +13,32 @@
         <p id=myLinks>
             <a id="about" href="index.html">About</a>
             <a id="portfolio" href="portfolio.html">Portfolio</a>
-            <a id="contact" href="contact.html">Contact</a>    
+            <a id="contact" href="contact.html">Contact</a>
         </p>
     </section>
             
     <section id=myContactWindow>
         <section id=contactMePage>
-            <form action="/my-handling-form-page" method="post">
+                <section id=contactLabel >Contact</section>
+                <hr>
+                <form action="contactform.txt" method="post">
                 <div>
-                    <label for="contactName">Contact Name:</label>
-                    <input type="text" id="contactName" name="contact_name">
+                    <label for="contactName">Name:</label>
+                    <br>
+                    <input type="text" id="contactName" name="contact_name" width="340px">
+                    <br>
                 </div>
                 <div>
                     <label for="contactEmail">Email:</label>
+                    <br>
                     <input type="email" id="contactEmail" name="contact_email">
+                    <br>
                 </div>
                 <div>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
+                    <label for="contactMsg">Message:</label>
+                    <br>
+                    <textarea id="contactMsg" name="user_message" rows: 4 cols: 24></textarea>
+                    <br>
                 </div>
                 <div class="button">
                     <button type="submit" name="contactInfo">Send Contact Info</button>
