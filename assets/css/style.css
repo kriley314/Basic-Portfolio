@@ -65,7 +65,6 @@ header {
 }
 
 #myLinks {
-/*    float: right;*/
     margin-left: 590px;
     font-size: 14px;
     word-spacing: 10px;
@@ -81,7 +80,7 @@ header {
     width: 100%;
     min-width: 960px;
     height: 500px;
-    background-image: url('../images/topography.png');
+    background-image: url('../images/circuit.png');
 }
 
 #myContactWindow {
@@ -91,7 +90,7 @@ header {
     width: 100%;
     min-width: 960px;
     height: 500px;
-    background-image: url('../images/topography.png');
+    background-image: url('../images/circuit.png');
 }
 
 #contactMePage {
@@ -109,7 +108,7 @@ header {
     width: 100%;
     min-width: 960px;
     height: 500px;
-    background-image: url('../images/topography.png');
+    background-image: url('../images/circuit.png');
 }
 
 hr {
@@ -131,7 +130,7 @@ hr {
 #aboutMePage {
     clear: left;
     width: 600px;
-    height: 500px;
+    height: 400px;
     background-color: #ffffff;
     border-color: #dddddd;
 }
@@ -145,6 +144,18 @@ hr {
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
+}
+
+#intro {
+    margin-right: 9px;
+}
+
+#moreAboutMe {
+    margin-right: 9px;
+}
+
+#yetMoreAboutMe {
+    margin-right: 9px;
 }
 
 #portfolioPage {
@@ -176,17 +187,20 @@ hr {
 #contactName {
     width: 440px;
     margin-bottom: 15px;
+    margin-left: 15px;
 }
 
 #contactEmail {
     width: 440px;
     margin-bottom: 15px;
+    margin-left: 15px;
 }
 
 #contactMsg {
     width: 440px;
     height: 200px;
     margin-bottom: 15px;    
+    margin-left: 15px;
 }
 
 footer {
