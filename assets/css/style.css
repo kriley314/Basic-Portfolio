@@ -184,6 +184,15 @@ hr {
     margin-left: 15px;
 }
 
+label {
+    margin-left: 15px;
+}
+
+button {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
 #contactName {
     width: 440px;
     margin-bottom: 15px;
@@ -198,7 +207,7 @@ hr {
 
 #contactMsg {
     width: 440px;
-    height: 200px;
+    height: 150px;
     margin-bottom: 15px;    
     margin-left: 15px;
 }
